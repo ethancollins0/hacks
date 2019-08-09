@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2019_08_09_173158) do
     t.string "stateName"
     t.text "history"
     t.string "url"
+    t.string "img"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
