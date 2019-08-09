@@ -6,6 +6,7 @@ class CreateStates < ActiveRecord::Migration[5.2]
       t.string :stateName
       t.text :history
       t.string :url
+      t.string :img
 
       t.timestamps
     end
